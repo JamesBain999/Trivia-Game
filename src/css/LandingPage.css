@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.landing-page-heading {
+  color: white;
+  font-size: 120px;
+  margin-bottom: 20px;
+}
+
+.landing-page-text {
+  color: white;
+  margin-bottom: 40px;
+}
+
+.landing-page-button{
+  width: 200px
+}

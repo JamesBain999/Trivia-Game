@@ -1,0 +1,22 @@
+.login-page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .login-page-heading {
+    font-size: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    font-size: xx-large;
+    margin-bottom: 40px;
+  }
+  
+  .landing-page-button{ 
+    width: 200px
+  }
+  

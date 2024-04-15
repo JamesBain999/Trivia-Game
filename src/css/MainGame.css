@@ -1,0 +1,88 @@
+.App {
+    display: grid;
+    height: 100vh;
+    place-content: center;
+    background-color: darkslategrey;
+}
+
+.game-board {
+    position: relative;
+    display: grid;
+    place-content: center;
+    border: 1px solid black;
+}
+
+#question-text {
+    margin: 10px;
+    font-size: 30px;
+}
+
+#category-text{
+    font-size: 30px;
+    margin: 0;
+}
+
+.question-section {
+    position: relative;
+    display: grid;
+    place-content: center;
+    text-align: center;
+    background-color: darkslategrey;
+    height: 400px;
+    width: 800px;
+    color: white;
+}
+
+.tile {
+    position: absolute;
+}
+
+.player {
+    position: absolute;
+}
+
+.question-button {
+    background-color: white;
+    color: darkslategrey;
+    border: 2px solid darkslategrey;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s, color 0.3s;
+    width: 90%;
+    height: 90%;
+    border: solid white 5px;
+  }
+  
+  .question-button:hover {
+    background-color: darkslategrey;
+    color: white;
+    border: solid white 5px;
+  }
+
+  #answer-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    gap: 10px; /* Gap between grid items */
+    height: 100%; /* Ensure the container div is fully covered */
+    place-items: center;
+}
+
+ .correct-answers {
+    color: white;
+    font-family: monospace;
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+ }
+
+ .gameDetails{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+ }
+
+ .gameDetails button:hover{
+    cursor: pointer;
+ }
